@@ -2,7 +2,7 @@
 
 ### Parte 1. Estimación de retardo y consumo promedio de potencia
 
-Diseñar un circuito CMOS estático para calcular $F=(A+B)(C+D)$ con el menor retardo posible. Cada entrada puede tener un máximo de de 30 $\lambda$ de ancho de transistor. La salida debe manejar una carga equivalente a 500$\lambda$ de ancho de transistor. Seleccionar tamaños de transistores para lograr el menor retardo posible.
+Diseñar un circuito CMOS estático para calcular $F=(A+B)(C+D)$ con el menor retardo posible. Cada entrada puede tener un máximo de de 30 $\lambda$ de ancho de transistor. La salida debe manejar una carga equivalente a 500 $\lambda$ de ancho de transistor. Seleccionar tamaños de transistores para lograr el menor retardo posible.
 
 **Compuerta con etapas simples**
 
