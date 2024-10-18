@@ -40,3 +40,20 @@ $$D=NF^{\frac{1}{N}}+P=2\left(  \frac{1250}{27} \right) ^{\frac{1}{2}}+4=17.6$$
 
 El retardo de la compuerta es de 17.6$\tau$ por lo que la estimación del retardo es
 $$D=17.6 \cdot 30.64ps \approx 539.26ps$$
+
+### Parte 3. Diseño de las compuertas y selección de tamaños
+
+**Compuerta con etapas simples**
+A continuación se presentan los cálculos y el diseño de la compuerta con tamaños de transistores necesarios
+
+**Esfuerzo de etapa**
+
+$$f̂=F^{\frac{1}{N}}=6.8$$
+
+ **Cálculo del tamaño de los transistores**
+ 
+ $$C_{in_{i}}=\frac{C_{out_i}  \cdot g_i}{f̂}$$
+ 
+  $$C_{in_{2}}=\frac{500\lambda  \cdot \frac{5}{3}}{f6.8} \approx 122 \lambda$$
+
+$$C_{in_{1}}=\frac{122\lambda  \cdot \frac{5}{3}}{f6.8} \approx 30 \lambda$$
