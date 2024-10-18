@@ -12,16 +12,27 @@ Para la estimación del retardo de la compuerta compleja se realizaron los cálc
 
 **Esfuerzo Eléctrico (fanout)** $$H=\frac{C_{out(path)}}{C_{in(path)}}=\frac{500}{30}=\frac{50}{3}$$
 **Esfuerzo por ramificación**
+
 $$B=1$$
+
 **Esfuerzo lógico**
+
 $$G=g_{or} \cdot g_{and} = \frac{5}{3} \cdot \frac{5}{3} = \frac{25}{9}$$
+
 **Esfuerzo**
+
 $$F=GBH= \frac{25}{9} \cdot 1 \cdot \frac{50}{3}=\frac{1250}{27}$$
+
 **Retardo parasitivo**
+
 $$P=p_{or}+p_{and}=2+2=4$$
+
 **Número de etapas**
+
 $$N=2$$
+
 **Retardo mínimo**
+
 $$D=NF^{\frac{1}{N}}+P=2\left(  \frac{1250}{27} \right) ^{\frac{1}{2}}+4=17.6$$
 
 El retardo de la compuerta es de 17.6$\tau$ por lo que la estimación del retardo es
