@@ -56,6 +56,6 @@ $$f̂=F^{\frac{1}{N}}=6.8$$
  
  $$C_{in_{i}}=\frac{C_{out_i}  \cdot g_i}{f̂}$$
  
-  $$C_{in_{2}}=\frac{500\lambda  \cdot \frac{5}{3}}{f6.8} \approx 122 \lambda$$
+  $$C_{in_{2}}=\frac{500\lambda  \cdot \frac{5}{3}}{6.8} \approx 122 \lambda$$
 
-$$C_{in_{1}}=\frac{122\lambda  \cdot \frac{5}{3}}{f6.8} \approx 30 \lambda$$
+$$C_{in_{1}}=\frac{122\lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
