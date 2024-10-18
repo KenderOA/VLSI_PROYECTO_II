@@ -10,7 +10,10 @@ Para la estimación del retardo de la compuerta compleja se realizaron los cálc
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=338&x=-155&y=297&w=671&h=407&store=1&accept=image%2F*&auth=LCA%20c26308a973d661005aee367592440b6e8e908195442417bd66aa59fe30746d94-ts%3D1729217234)
 
-**Esfuerzo Eléctrico (fanout)** $$H=\frac{C_{out(path)}}{C_{in(path)}}=\frac{500}{30}=\frac{50}{3}$$
+**Esfuerzo Eléctrico (fanout)**
+
+$$H=\frac{C_{out(path)}}{C_{in(path)}}=\frac{500}{30}=\frac{50}{3}$$
+
 **Esfuerzo por ramificación**
 
 $$B=1$$
