@@ -20,7 +20,7 @@ $$B=1$$
 
 **Esfuerzo lógico**
 
-$$G=g_{or} \cdot g_{and} = \frac{5}{3} \cdot \frac{5}{3} = \frac{25}{9}$$
+$$G=g_{1} \cdot g_{2} = \frac{5}{3} \cdot \frac{5}{3} = \frac{25}{9}$$
 
 **Esfuerzo**
 
