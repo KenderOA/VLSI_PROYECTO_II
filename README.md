@@ -10,7 +10,7 @@ Para la estimación del retardo de la compuerta compleja se realizaron los cálc
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=338&x=-155&y=297&w=671&h=407&store=1&accept=image%2F*&auth=LCA%20c26308a973d661005aee367592440b6e8e908195442417bd66aa59fe30746d94-ts%3D1729217234)
 
-![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1226&x=-1268&y=-1736&w=2816&h=1936&store=1&accept=image%2F*&auth=LCA%20fd7c8bc5b3338e2c62952785b699b3fcbca14326aa45422c073bd2b423e2dcea-ts%3D1729217234)
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1383&x=-1268&y=-1740&w=2816&h=1940&store=1&accept=image%2F*&auth=LCA%203998641ca8684ea55756a204436373c3d1891f0c63416695453d5698c47316a1-ts%3D1729280601)
 
 **Esfuerzo Eléctrico (fanout)**
 
