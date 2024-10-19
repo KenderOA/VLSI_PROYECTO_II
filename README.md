@@ -8,6 +8,38 @@ Diseñar un circuito CMOS estático para calcular $F=(A+B)(C+D)$ con el menor re
 
 ![](https://documents.lucid.app/documents/a1e1e3ec-c96b-4d77-837c-5420ae4eb0e7/pages/0_0?a=1018&x=387&y=262&w=726&h=336&store=1&accept=image%2F*&auth=LCA%20e2c7d780d761c5e0637c1e12472d41f16a62696c3cf9ae93fae47877ce87cf2e-ts%3D1729293097)
 
+
+
+Para la estimación del retardo de la compuerta compleja se realizaron los cálculos basados en la teoría de esfuerzo lógico.
+
+**Esfuerzo Eléctrico (fanout)** 
+
+$$H=\frac{C_{out(path)}}{C_{in(path)}}=\frac{500}{30}=\frac{50}{3}$$
+
+**Esfuerzo por ramificación**
+
+$$B=1$$
+
+**Esfuerzo lógico**
+
+$$G=g_{A} \cdot g_{inv} = 2 \cdot 1 = 2$$
+
+**Esfuerzo**
+
+$$F=GBH= 2 \cdot 1 \cdot \frac{50}{3}=\frac{100}{3}$$
+
+**Retardo parasitivo**
+
+$$P=p_{or}+p_{nand}+p_{inv}=2+2+1=5$$
+
+**Número de etapas**
+
+$$N=2$$
+
+**Retardo mínimo**
+
+$$D=NF^{\frac{1}{N}}+P=2\left(  \frac{100}{3} \right) ^{\frac{1}{2}}+4=16.54$$
+
 **Compuerta con etapas simples**
 
 Para la estimación del retardo de la compuerta compleja se realizaron los cálculos basados en la teoría de esfuerzo lógico.
