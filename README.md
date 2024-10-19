@@ -46,8 +46,6 @@ Para la estimación del retardo de la compuerta compleja se realizaron los cálc
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=338&x=-155&y=297&w=671&h=407&store=1&accept=image%2F*&auth=LCA%20c26308a973d661005aee367592440b6e8e908195442417bd66aa59fe30746d94-ts%3D1729217234)
 
-![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1383&x=-1268&y=-1740&w=2816&h=1940&store=1&accept=image%2F*&auth=LCA%203998641ca8684ea55756a204436373c3d1891f0c63416695453d5698c47316a1-ts%3D1729280601)
-
 **Esfuerzo Eléctrico (fanout)**
 
 $$H=\frac{C_{out(path)}}{C_{in(path)}}=\frac{500}{30}=\frac{50}{3}$$
@@ -78,6 +76,14 @@ $$D=NF^{\frac{1}{N}}+P=2\left(  \frac{1250}{27} \right) ^{\frac{1}{2}}+4=17.6$$
 
 El retardo de la compuerta es de 17.6$\tau$ por lo que la estimación del retardo es
 $$D=17.6 \cdot 30.64ps \approx 539.26ps$$
+
+### Parte 2. Determinación de los diferentes tipos de retardo $t_{pdr}, t_{pdf}$ y de contaminación $t_{cdr}, t_{cdf}$
+
+Para el análisis de tiempos de retardo y contaminación se utilizó la aproximación de Elmore y considerando una tecnología de transistores 1.8V (ne,pe) de un proceso de XH018 - 0.18 $\mu$m donde el $\tau_r=21.31ps$ y $\tau_f=30.64ps$ 
+
+**Compuerta con etapas complejas**
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1383&x=-1268&y=-1740&w=2816&h=1940&store=1&accept=image%2F*&auth=LCA%203998641ca8684ea55756a204436373c3d1891f0c63416695453d5698c47316a1-ts%3D1729280601)
 
 ### Parte 3. Diseño de las compuertas y selección de tamaños
 
