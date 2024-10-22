@@ -9,7 +9,6 @@ Diseñar un circuito CMOS estático para calcular $F=(A+B)(C+D)$ con el menor re
 ![](https://documents.lucid.app/documents/a1e1e3ec-c96b-4d77-837c-5420ae4eb0e7/pages/0_0?a=1018&x=387&y=262&w=726&h=336&store=1&accept=image%2F*&auth=LCA%20e2c7d780d761c5e0637c1e12472d41f16a62696c3cf9ae93fae47877ce87cf2e-ts%3D1729293097)
 
 
-
 Para la estimación del retardo de la compuerta compleja se realizaron los cálculos basados en la teoría de esfuerzo lógico.
 
 **Esfuerzo Eléctrico (fanout)** 
@@ -39,6 +38,14 @@ $$N=2$$
 **Retardo mínimo**
 
 $$D=NF^{\frac{1}{N}}+P=2\left(  \frac{100}{3} \right) ^{\frac{1}{2}}+4=16.54$$
+
+El retardo de la compuerta es de 16.54$\tau$ por lo que la estimación del retardo considerando el $\tau$ más lento (el peor caso) se utiliza el $\tau_f=30.64ps$, por lo tanto
+
+$$D=16.54 \cdot 30.64ps \approx 506.78ps$$
+
+Con el retardo anterior se determina la frecuencia máxima en la que puede operar la compuerta
+
+$$F_{max}=\frac{1}{539.26ps} \approx 1.97 GHz$$
 
 ### Compuerta con etapas simples
 
