@@ -37,7 +37,7 @@ $$N=2$$
 
 **Retardo mínimo**
 
-$$D=NF^{\frac{1}{N}}+P=2\left(  \frac{100}{3} \right) ^{\frac{1}{2}}+4=16.54$$
+$$D=NF^{\frac{1}{N}}+P=2\left(  \frac{100}{3} \right) ^{\frac{1}{2}}+5=16.54$$
 
 El retardo de la compuerta es de 16.54$\tau$ por lo que la estimación del retardo considerando el $\tau$ más lento (el peor caso) se utiliza el $\tau_f=30.64ps$, por lo tanto
 
