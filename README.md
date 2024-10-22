@@ -1,3 +1,4 @@
+
 # VLSI_PROYECTO_II
 
 ## Parte 1. Estimación de retardo y consumo promedio de potencia
@@ -160,7 +161,24 @@ Para determinar en su totalidad los tiempos de retardo se sumaron los resultados
 
 
 
-### Parte 3. Diseño de las compuertas y selección de tamaños
+## Parte 3. Diseño de las compuertas y selección de tamaños
+
+**Compuerta con etapas complejas**
+A continuación se presentan los cálculos y el diseño de la compuerta con tamaños de transistores necesarios
+
+**Esfuerzo de etapa**
+
+$$f̂=F^{\frac{1}{N}}=6.8$$
+
+ **Cálculo del tamaño de los transistores**
+ 
+ $$C_{in_{i}}=\frac{C_{out_i}  \cdot g_i}{f̂}$$
+ 
+  $$C_{in_{2}}=\frac{500\lambda  \cdot \frac{5}{3}}{6.8} \approx 122 \lambda$$
+
+$$C_{in_{1}}=\frac{122 \lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2307&x=-786&y=501&w=1724&h=1113&store=1&accept=image%2F*&auth=LCA%203f029a6ea3b7244d4f5ec03ec0f9503aa043ba2e076b8c4dbf58aa8e808d4754-ts%3D1729561784)
 
 **Compuerta con etapas simples**
 A continuación se presentan los cálculos y el diseño de la compuerta con tamaños de transistores necesarios
@@ -175,4 +193,6 @@ $$f̂=F^{\frac{1}{N}}=5.77$$
  
   $$C_{in_{2}}=\frac{500\lambda  \cdot \frac{5}{3}}{5.77} \approx 86 \lambda$$
 
-$$C_{in_{1}}=\frac{122\lambda  \cdot \frac{5}{3}}{5.77} \approx 30 \lambda$$
+$$C_{in_{1}}=\frac{86 \lambda  \cdot \frac{5}{3}}{5.77} \approx 30 \lambda$$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2669&x=-1253&y=-1734&w=2486&h=1892&store=1&accept=image%2F*&auth=LCA%20c9763dd3c104b6840919c180546aafd4c41522a1db1564baea668c2e28df9910-ts%3D1729561784)
