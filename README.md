@@ -89,38 +89,51 @@ Para el consumo de potencia promedio se utiliza
 Para el análisis de tiempos de retardo y contaminación se utilizó la aproximación de Elmore y considerando una tecnología de transistores 1.8V (ne,pe) de un proceso de XH018 - 0.18 $\mu$m donde el $\tau_r=21.1ps$ y $\tau_f=30.64ps$ 
 
 **Compuerta con etapas complejas**
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1979&x=-786&y=501&w=1724&h=1113&store=1&accept=image%2F*&auth=LCA%202aabb06375cf194994398b8100d9887fdabf6f4be3754c140b7cd8b8f0cf962c-ts%3D1729561784)
 
 ### $t_{pdf}$
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2060&x=1452&y=-1634&w=616&h=663&store=1&accept=image%2F*&auth=LCA%200eec7f7dac5a7da7dbadf8c104dba492ed4e99b6dd577d87d0d5d0a9fc087fa3-ts%3D1729561784)
+
 $$ \tau_r = RC = 21.1 ps$$
 $$ t_{pdf} = 15C \cdot R + 2C \cdot \frac{R}{2}$$
 $$t_{pdf} = 16RC = 337.6ps$$
 
 ### $t_{cdf}$
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2072&x=1452&y=-1634&w=616&h=663&store=1&accept=image%2F*&auth=LCA%20c2ebcfdfd6f7bbd3bee60860ba6704ee0a98a03360aaa3e13f6ecc2519344f2e-ts%3D1729561784)
+
 $$ \tau_r = RC = 21.1 ps$$
 $$ t_{cdf} = 15C \cdot \left( \frac{R}{4} +\frac{R}{4} \right) + 2C \cdot \frac{R}{4}$$
 $$t_{cdf} = 8RC = 168.8ps$$
 
 ### $t_{pdr}$
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2131&x=1456&y=-1576&w=533&h=785&store=1&accept=image%2F*&auth=LCA%20592b4d94bcc77785616bd15eef14f834aa39d0670544e9f576b2d73ff82ecf16-ts%3D1729561784)
+
 $$ \tau_r = RC = 30.64 ps$$
 $$ t_{pdf} = 15C \cdot R + 4C \cdot \frac{R}{2}$$
 $$t_{pdf} = 17RC = 520.88ps$$
 
 ### $t_{cdr}$
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2143&x=1456&y=-1576&w=533&h=785&store=1&accept=image%2F*&auth=LCA%201f5d0ce0bd7eb4b30f0983b051efee52e3207f6c362fdc0472858003d8b363d6-ts%3D1729561784)
+
 $$ \tau_r = RC = 30.64ps$$
 $$ t_{cdf} = 15C \cdot \left( \frac{R}{4} + \frac{R}{4} \right) + 4C \cdot \frac{R}{4}$$
 $$t_{cdf} = \frac{17}{2} RC = 260.44ps$$
 
 **Inversor de la compuerta**
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2186&x=1561&y=-2098&w=418&h=400&store=1&accept=image%2F*&auth=LCA%20b68faa3f7b20a36cecded8d505c1dec4889c81159dfcc35b01eab6e8e20e659a-ts%3D1729561784)
+
 $$t_{pdf}=t_{cdf}$$
 $$ \tau_r = RC = 21.1 ps$$
 $$t_{pdf} = 3RC = 63.3ps$$
+
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2209&x=1475&y=-1557&w=550&h=385&store=1&accept=image%2F*&auth=LCA%20a8ffeef37c02bdfee9bd3843e8b061057e56809f61ac5e9d5c7c185b094453be-ts%3D1729561784)
+
 $$t_{pdr}=t_{cdr}$$
 $$ \tau_r = RC = 30.64 ps$$
 $$t_{pdr} = 3RC = 91.92ps$$
