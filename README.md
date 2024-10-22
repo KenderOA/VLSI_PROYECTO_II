@@ -45,7 +45,7 @@ $$D=16.54 \cdot 30.64ps \approx 506.78ps$$
 
 Con el retardo anterior se determina la frecuencia máxima en la que puede operar la compuerta
 
-$$F_{max}=\frac{1}{539.26ps} \approx 1.97 GHz$$
+$$F_{max}=\frac{1}{506.78ps} \approx 1.97 GHz$$
 
 ### Compuerta con etapas simples
 
