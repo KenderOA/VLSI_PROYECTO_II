@@ -48,6 +48,20 @@ Con el retardo anterior se determina la frecuencia máxima en la que puede opera
 
 $$F_{max}=\frac{1}{506.78ps} \approx 1.97 GHz$$
 
+**Potencia**
+
+$$P_A = P_B = P_C = P_D = 0.25$$
+
+$$P_i = \frac{9}{256}$$
+
+$$ \alpha = \frac{9}{256} \cdot \frac{247}{256} = \frac{2223}{65536}$$
+
+$$C = 450 \tfrac{pf}{(\mu m)^2}$$
+
+$$P_{sw} = \alpha \cdot C \cdot \left(  V_{DD} \right)^2 \cdot f $$
+
+$$P_{sw} = \frac{2223}{65536} \cdot 450 \tfrac{pF}{\mu m^2} \cdot \left(  1.8 \right)^2 \cdot 1.97 GHz = $$
+
 ### Compuerta con etapas simples
 
 Para la estimación del retardo de la compuerta compleja se realizaron los cálculos basados en la teoría de esfuerzo lógico.
@@ -90,7 +104,19 @@ Con el retardo anterior se determina la frecuencia máxima en la que puede opera
 
 $$F_{max}=\frac{1}{539.26ps} \approx 1.85 GHz$$
 
-Para el consumo de potencia promedio se utiliza
+**Potencia**
+
+$$P_A = P_B = P_C = P_D = 0.25$$
+
+$$P_i = \frac{225}{256}$$
+
+$$ \alpha = \frac{225}{256} \cdot \frac{31}{256} = \frac{6975}{65536}$$
+
+$$C = 450 \tfrac{pf}{(\mu m)^2}$$
+
+$$P_{sw} = \alpha \cdot C \cdot \left(  V_{DD} \right)^2 \cdot f $$
+
+$$P_{sw} = \frac{6975}{65536} \cdot 450 \tfrac{pF}{\mu m^2} \cdot \left(  1.8 \right)^2 \cdot 1.85 GHz = $$
 
 ## Parte 2. Determinación de los diferentes tipos de retardo $t_{pdr}, t_{pdf}$ y de contaminación $t_{cdr}, t_{cdf}$
 
@@ -180,6 +206,8 @@ $$f̂=F^{\frac{1}{N}}=5.77$$
 $$C_{in_{1}}=\frac{86 \lambda  \cdot \frac{5}{3}}{5.77} \approx 30 \lambda$$
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2307&x=-786&y=501&w=1724&h=1113&store=1&accept=image%2F*&auth=LCA%203f029a6ea3b7244d4f5ec03ec0f9503aa043ba2e076b8c4dbf58aa8e808d4754-ts%3D1729561784)
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3145&x=-4540&y=-3138&w=657&h=343&store=1&accept=image%2F*&auth=LCA%2063d322439f0e161ad8e493f13f3fbcf2ee62cbabd8aa3144366120b0be8c5090-ts%3D1729645144)
 
 **Compuerta con etapas simples**
 
