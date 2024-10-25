@@ -1,4 +1,3 @@
-
 # VLSI_PROYECTO_II
 
 ## Parte 1. Estimación de retardo y consumo promedio de potencia
@@ -60,7 +59,7 @@ $$C = 450 \tfrac{pf}{(\mu m)^2}$$
 
 $$P_{sw} = \alpha \cdot C \cdot \left(  V_{DD} \right)^2 \cdot f $$
 
-$$P_{sw} = \frac{2223}{65536} \cdot 450 \tfrac{pF}{\mu m^2} \cdot \left(  1.8 \right)^2 \cdot 1.97 GHz = $$
+$$P_{sw} = \frac{2223}{65536} \cdot 450 \tfrac{pF}{\mu m^2} \cdot \left(  1.8 \right)^2 \cdot 1.97 GHz = ???$$
 
 ### Compuerta con etapas simples
 
@@ -147,16 +146,16 @@ $$t_{cdf} = 8RC = 168.8ps$$
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2131&x=1456&y=-1576&w=533&h=785&store=1&accept=image%2F*&auth=LCA%20592b4d94bcc77785616bd15eef14f834aa39d0670544e9f576b2d73ff82ecf16-ts%3D1729561784)
 
 $$ \tau_r = RC = 30.64 ps$$
-$$ t_{pdf} = 15C \cdot R + 4C \cdot \frac{R}{2}$$
-$$t_{pdf} = 17RC = 520.88ps$$
+$$ t_{pdr} = 15C \cdot R + 4C \cdot \frac{R}{2}$$
+$$t_{pdr} = 17RC = 520.88ps$$
 
 ### $t_{cdr}$
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2143&x=1456&y=-1576&w=533&h=785&store=1&accept=image%2F*&auth=LCA%201f5d0ce0bd7eb4b30f0983b051efee52e3207f6c362fdc0472858003d8b363d6-ts%3D1729561784)
 
 $$ \tau_r = RC = 30.64ps$$
-$$ t_{cdf} = 15C \cdot \left( \frac{R}{4} + \frac{R}{4} \right) + 4C \cdot \frac{R}{4}$$
-$$t_{cdf} = \frac{17}{2} RC = 260.44ps$$
+$$ t_{cdr} = 15C \cdot \left( \frac{R}{4} + \frac{R}{4} \right) + 4C \cdot \frac{R}{4}$$
+$$t_{cdr} = \frac{17}{2} RC = 260.44ps$$
 
 **Inversor de la compuerta**
 
@@ -185,7 +184,60 @@ Para determinar en su totalidad los tiempos de retardo se sumaron los resultados
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1383&x=-1268&y=-1740&w=2816&h=1940&store=1&accept=image%2F*&auth=LCA%203998641ca8684ea55756a204436373c3d1891f0c63416695453d5698c47316a1-ts%3D1729280601)
 
+### $t_{pdf}$
 
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3195&x=1560&y=-2098&w=440&h=400&store=1&accept=image%2F*&auth=LCA%2010b8f017d8236312fedcf5342709fd9e7cd4cbe7b6bcfb3dc7299f1c23222b9b-ts%3D1729716047)
+
+$$ \tau_r = RC = 21.1ps$$
+$$ t_{pdf} = 11RC = 232.1ps$$
+
+### $t_{cdf}$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3210&x=1539&y=-2098&w=462&h=400&store=1&accept=image%2F*&auth=LCA%20375f226ebf1602cbeaec7af0fbd115f381cbb67c12782ae61e082fa6a86d7d07-ts%3D1729716047)
+
+$$ \tau_r = RC = 21.1ps$$
+$$ t_{cdf} = \frac{11}{2}RC = 116.05ps$$
+
+### $t_{pdr} = t_{cdr}$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3304&x=1454&y=-1571&w=572&h=692&store=1&accept=image%2F*&auth=LCA%20dadf025c6af4fe28ca745d09f9bc0f5627f3156cfa4804b3f8964afa2e42abc2-ts%3D1729897525)
+
+$$ \tau_r = RC = 30.64ps$$
+$$ t_{pdr} = t_{cdr} = 11C \cdot \left( \frac{R}{2} + \frac{R}{2} \right) + 4C \cdot \frac{R}{2}$$
+$$t_{pdr} = t_{cdr} = 13 RC = 398.32ps$$
+
+Para la segunda compuerta NOR
+
+### $t_{pdf}$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3347&x=1561&y=-2098&w=418&h=400&store=1&accept=image%2F*&auth=LCA%208204ab962894823d03952de7cfbb864909d950f5274b5233d71fc35aec3bde84-ts%3D1729897525)
+
+$$ \tau_r = RC = 21.1ps$$
+$$ t_{pdf} = 6RC = 126.6ps$$
+
+### $t_{cdf}$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3361&x=1540&y=-2098&w=440&h=400&store=1&accept=image%2F*&auth=LCA%2088f8900e0e812b4a30f8904dd15f456ac2afe8e5014bcdbf25c289167c8f569f-ts%3D1729897525)
+
+$$ \tau_r = RC = 21.1ps$$
+$$ t_{cdf} = 3RC = 63.3ps$$
+
+### $t_{pdr} = t_{cdr}$
+
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3317&x=1455&y=-1571&w=555&h=685&store=1&accept=image%2F*&auth=LCA%20e261de4111192123a9991e196abfd9110d3effb79015cac8b79b1c00aaa22cde-ts%3D1729897525)
+
+$$ \tau_r = RC = 30.64ps$$
+$$ t_{pdr} = t_{cdr} = 6C \cdot \left( \frac{R}{2} + \frac{R}{2} \right) + 4C \cdot \frac{R}{2}$$
+$$t_{pdr} = t_{cdr} = 8 RC = 245.12ps$$
+
+Para determinar en su totalidad los tiempos de retardo se sumaron los resultados, de manera que:
+
+|  | Delay (ps)|
+|----------|----------|
+| $t_{pdf}$ | 524.92|
+| $t_{cdf}$  | 461.62  | 
+| $t_{pdr}$   | 477.22 |
+| $t_{cdr}$   | 361.17 |
 
 ## Parte 3. Diseño de las compuertas y selección de tamaños
 
