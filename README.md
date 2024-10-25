@@ -182,7 +182,7 @@ Para determinar en su totalidad los tiempos de retardo se sumaron los resultados
 
 **Compuerta con etapas simples**
 
-![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=1383&x=-1268&y=-1740&w=2816&h=1940&store=1&accept=image%2F*&auth=LCA%203998641ca8684ea55756a204436373c3d1891f0c63416695453d5698c47316a1-ts%3D1729280601)
+![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=3533&x=-1253&y=-1734&w=2486&h=1892&store=1&accept=image%2F*&auth=LCA%20db52691ed77e5ee1803354a8e36c9cb5bea4a18b538292806e33b0ad4f8b4eed-ts%3D1729897525)
 
 ### $t_{pdf}$
 
