@@ -279,10 +279,12 @@ $$C_{in_{1}}=\frac{122 \lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2669&x=-1253&y=-1734&w=2486&h=1892&store=1&accept=image%2F*&auth=LCA%20c9763dd3c104b6840919c180546aafd4c41522a1db1564baea668c2e28df9910-ts%3D1729561784)
 ## Parte 4. Diseño trazado
- **Esquemático  de la circuito simple**
+
+**Esquemático  de la circuito simple**
 ![image](https://github.com/user-attachments/assets/66355b32-c70a-4ea9-b136-acf4b0fb97f2)
 
 **Layout de la circuito primeras 2 compuertas or**
+
 ![image](https://github.com/user-attachments/assets/b8ac7c6c-c20d-4136-a96d-3bebb8767811)
 
 **Layout de la circuito última compuerta or**
