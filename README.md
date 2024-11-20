@@ -284,6 +284,7 @@ $$C_{in_{1}}=\frac{122 \lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
 
 **Layout de la circuito primeras 2 compuertas or**
 ![image](https://github.com/user-attachments/assets/b8ac7c6c-c20d-4136-a96d-3bebb8767811)
+
 **Layout de la circuito última compuerta or**
 ![image](https://github.com/user-attachments/assets/b7c44624-6e6d-4e7b-8eea-9218e05734a1)
 
