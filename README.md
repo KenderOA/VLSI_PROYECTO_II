@@ -278,3 +278,26 @@ $$f̂=F^{\frac{1}{N}}=6.8$$
 $$C_{in_{1}}=\frac{122 \lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
 
 ![](https://documents.lucid.app/documents/8c1695a0-176d-422f-902b-6a6f997d5b2a/pages/0_0?a=2669&x=-1253&y=-1734&w=2486&h=1892&store=1&accept=image%2F*&auth=LCA%20c9763dd3c104b6840919c180546aafd4c41522a1db1564baea668c2e28df9910-ts%3D1729561784)
+## Parte 4. Diseño trazado
+ **Esquemático  de la circuito simple**
+![image](https://github.com/user-attachments/assets/66355b32-c70a-4ea9-b136-acf4b0fb97f2)
+
+**Layout de la circuito primeras 2 compuertas or**
+![image](https://github.com/user-attachments/assets/b8ac7c6c-c20d-4136-a96d-3bebb8767811)
+**Layout de la circuito última compuerta or**
+![image](https://github.com/user-attachments/assets/b7c44624-6e6d-4e7b-8eea-9218e05734a1)
+
+**Simulación de la circuito simple**
+![image](https://github.com/user-attachments/assets/ae7f04ff-601c-4a5a-b50e-4e02b7dded1a)
+
+**Esquemático de la circuito OAI**
+![image](https://github.com/user-attachments/assets/73921ee8-79f3-4435-adf6-36746b38f014)
+
+**Layout de la primera parte del circuito OAI**
+![image](https://github.com/user-attachments/assets/839d839a-5640-45d3-be5d-aed03081bd02)
+
+**Layout del inversor del circuito OAI**
+![image](https://github.com/user-attachments/assets/d5bd63d6-b248-407f-8974-7cd7a75dcde5)
+
+**Simulación de la circuito OAI**
+![image](https://github.com/user-attachments/assets/be6d3d99-1fdf-4b56-95c7-eedf8e996694)
