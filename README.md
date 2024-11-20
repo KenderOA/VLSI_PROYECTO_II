@@ -288,19 +288,25 @@ $$C_{in_{1}}=\frac{122 \lambda  \cdot \frac{5}{3}}{6.8} \approx 30 \lambda$$
 ![image](https://github.com/user-attachments/assets/b8ac7c6c-c20d-4136-a96d-3bebb8767811)
 
 **Layout de la circuito última compuerta or**
+
 ![image](https://github.com/user-attachments/assets/b7c44624-6e6d-4e7b-8eea-9218e05734a1)
 
 **Simulación de la circuito simple**
+
 ![image](https://github.com/user-attachments/assets/ae7f04ff-601c-4a5a-b50e-4e02b7dded1a)
 
 **Esquemático de la circuito OAI**
+
 ![image](https://github.com/user-attachments/assets/73921ee8-79f3-4435-adf6-36746b38f014)
 
 **Layout de la primera parte del circuito OAI**
+
 ![image](https://github.com/user-attachments/assets/839d839a-5640-45d3-be5d-aed03081bd02)
 
 **Layout del inversor del circuito OAI**
+
 ![image](https://github.com/user-attachments/assets/d5bd63d6-b248-407f-8974-7cd7a75dcde5)
 
 **Simulación de la circuito OAI**
+
 ![image](https://github.com/user-attachments/assets/be6d3d99-1fdf-4b56-95c7-eedf8e996694)
